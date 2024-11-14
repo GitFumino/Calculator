@@ -23,7 +23,7 @@ function calculate() {
   calculation = eval(calculation);
 
   document.querySelector('.js-display')
-    .innerHTML = calculation.toFixed(3);
+    .innerHTML = calculation.toFixed(1);
 }
 
 function surpriseNumber(first, last) {

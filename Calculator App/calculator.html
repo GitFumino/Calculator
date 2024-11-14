@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+  <title> Calculator App </title>
+  <link rel="stylesheet" href="/styles/calculator.css">
+</head>
+<body>
+  <div class="calculator">
+    <div class="top-part">
+      <div class="js-display"></div>
+    </div>
+    <div class="bottom-part">
+      <div>
+        <button class="backspace" onclick="backspace()">
+          <img class="backspace-image" src="/images/backspace.png">
+        </button>
+        <button onclick="clearCalc()">C</button>
+        <button onclick="updateCalc('*')">*</button>
+        <button onclick="updateCalc('/')">/</button>
+      </div>
+      <div>
+        <button onclick="updateCalc('1')">1</button>
+        <button onclick="updateCalc('2')">2</button>
+        <button onclick="updateCalc('3')">3</button>
+        <button onclick="updateCalc('+')">+</button>
+      </div>
+      <div>
+        <button onclick="updateCalc('4')">4</button>
+        <button onclick="updateCalc('5')">5</button>
+        <button onclick="updateCalc('6')">6</button>
+        <button onclick="updateCalc('-')">-</button>
+      </div>
+      <div>
+        <button onclick="updateCalc('7')">7</button>
+        <button onclick="updateCalc('8')">8</button>
+        <button onclick="updateCalc('9')">9</button>
+        <button onclick="calculate()">=</button>
+      </div>
+      <div>
+        <button onclick="updateCalc('0')">0</button>
+        <button onclick="updateCalc('00')">00</button>
+        <button onclick="updateCalc('000')">000</button>
+        <button onclick="surpriseNumber(1, 99)">?</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/scripts/calculator.js"></script>
+</body>

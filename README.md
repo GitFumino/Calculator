@@ -1,1 +1,1 @@
-Learning to code, #1: Calculator app
+Learning to code, #2: Calculator app
